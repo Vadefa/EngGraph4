@@ -60,7 +60,6 @@ struct SpotLight : public PointLight
     }
 };
 
-/*Матрица WVP, которая вычисляется из позиции источника света, и модуль текстуры для карты теней.*/
 class LightingTechnique : public Technique {
 public:
 
