@@ -108,7 +108,7 @@ public:
     virtual void RenderSceneCB()
     {
         m_pGameCamera->OnRender();
-        m_scale += 0.5f;
+        m_scale += 0.05f;
 
         ShadowMapPass();
         RenderPass();
