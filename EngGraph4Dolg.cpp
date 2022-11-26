@@ -12,8 +12,8 @@
 #include "shadow_map_fbo.h"
 #include "shadow_map_technique.h"
 
-#define WINDOW_WIDTH  1280
-#define WINDOW_HEIGHT 1024
+#define WINDOW_WIDTH  1024
+#define WINDOW_HEIGHT 720
 
 class Main : public ICallbacks
 {
@@ -89,7 +89,7 @@ public:
     virtual void RenderSceneCB()
     {
         m_pGameCamera->OnRender();
-        m_scale += 0.05f;
+        m_scale += 0.02f;
 
         ShadowMapPass();
         RenderPass();
