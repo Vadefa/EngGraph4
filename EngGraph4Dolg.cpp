@@ -11,8 +11,8 @@
 #include "mesh.h"
 #include "skybox.h"
 
-#define WINDOW_WIDTH  1920
-#define WINDOW_HEIGHT 1200
+#define WINDOW_WIDTH  1024
+#define WINDOW_HEIGHT 720
 
 
 class Main : public ICallbacks
